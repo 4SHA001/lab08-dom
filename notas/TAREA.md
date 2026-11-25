@@ -32,3 +32,10 @@ formulario.addEventListener("submit", (evento) => {
   }
 });
 ```
+
+## Pruebas realizadas
+| Accion | Resultado esperado | Cumple (Si/No) |
+|--------|--------------------|----------------|
+| Enviar formulario vacío|Muestra "Escribe una tarea" en rojo sin recargar | Si|
+|Agregar una tarea nueva |Crea un <li> con botones Marcar y Borrar | Si |
+|Clic en Marcar y Borrar |Tacha la tarea y luego la borra del DOM | Si |
